@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  display:grid;
+  justify-content: center;
+  align-items: center;  
+  background-color:antiquewhite;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* 
+  setup: "I got my daughter a fridge for her birthday."
+  punchline: "I can't wait to see her face light up when she opens it."
+
+  setup: " How did the hacker escape the police?"
+  punchline: " He just ransomware!"
+
+  setup: "Why don't pirates travel on mountain roads?"
+
+  {props.setup && <h3> Setup:{props.setup}
+  <h3> Setup:{props.setup}</h3>
+  <p> punchline:{props.punchline}</p>
+  export default function App(){
+    const jokeElements = JokesData.map(joke => {
+       return <Joke setup={joke.setup} punchline={joke.punchline}/>})
+       return(<div> {jokeElements} </div>)
+*/

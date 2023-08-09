@@ -1,0 +1,10 @@
+.pro-2{
+    width:650px;
+    text-align: left;
+}
+.pro-2 table{
+    width: 100%;
+
+    background-color: aqua;
+    text-align: center;
+}
